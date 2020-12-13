@@ -1,0 +1,25 @@
+{
+    "name": "frankverhoeven/uuid-compare",
+    "description": "Compare UUID Packages",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "FrankVerhoeven\\UuidCompare\\": "src/"
+        }
+    },
+    "require": {
+        "ramsey/uuid": "^4.1",
+        "symfony/uid": "^5.2",
+        "phpbench/phpbench": "^0.17.1"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.3",
+        "roave/security-advisories": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Frank Verhoeven",
+            "email": "frankverhoeven@me.com"
+        }
+    ]
+}
